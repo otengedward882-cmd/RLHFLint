@@ -1,0 +1,12 @@
+[package]
+name = "rlhflint"
+version = "1.0.0"
+edition = "2021"
+authors = ["edward-oteng <otengedward882@gmail.com>"]
+description = "⚡ Blazing-fast RLHF and AI training dataset linter, schema validator, and deduplicator in Rust."
+license = "MIT"
+repository = "https://github.com/otengedward882-cmd/RLHFLint"
+keywords = ["ai", "rlhf", "dataset", "linter", "data-quality"]
+
+[dependencies]
+# Zero mandatory heavy external dependencies; builds directly with standard library

@@ -1,0 +1,7 @@
+{"prompt": "Explain the difference between TCP and UDP", "chosen": "TCP is connection-oriented ensuring ordered delivery; UDP is connectionless prioritizing low latency.", "rejected": "They are both network protocols."}
+{"prompt": "How do transformers handle attention?", "chosen": "Transformers utilize self-attention mechanisms allowing tokens to weigh relationships across the entire context window simultaneously.", "rejected": "They use recursive hidden states."}
+{"prompt": "Write a python function to compute factorial", "chosen": "def factorial(n):\n    return 1 if n <= 1 else n * factorial(n - 1)", "rejected": "TODO: implement factorial"}
+{"prompt": "Explain the difference between TCP and UDP", "chosen": "TCP uses a three-way handshake while UDP sends datagrams without establishing a handshake.", "rejected": "No difference."}
+{"prompt": "What is reinforcement learning from human feedback?", "chosen": "RLHF aligns language model outputs with human preferences using reward models trained on pairwise comparisons.", "rejected": "RLHF is supervised pre-training."}
+{"prompt": "", "chosen": "Empty prompt example", "rejected": "Should fail lint"}
+{"prompt": "Summarize this paragraph", "chosen": "Identical response text", "rejected": "Identical response text"}
